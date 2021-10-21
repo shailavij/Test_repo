@@ -8,6 +8,9 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hello, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
+def my_add(a,b):
+    return a+b
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -15,5 +18,6 @@ if __name__ == '__main__':
     print("Welcome to new IDE pycharm")
     print("Welcome to spark")
     print("Welcome to databrick")
+    print("add_output", my_add(5,6))
 
 
