@@ -9,7 +9,7 @@ def print_hi(name):
     print(f'Hello, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 def my_add(a,b):
-    return a+b
+    return a-b
 
 
 # Press the green button in the gutter to run the script.
