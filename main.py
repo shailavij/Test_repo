@@ -9,6 +9,9 @@ def print_hi(name):
     print(f'Hello, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 def my_add(a,b):
+    return a+b
+
+def my_sub(a,b):
     return a-b
 
 
@@ -19,5 +22,6 @@ if __name__ == '__main__':
     print("Welcome to spark")
     print("Welcome to databrick")
     print("add_output", my_add(5,6))
+    print("sub_output", my_sub(15, 6))
 
 
